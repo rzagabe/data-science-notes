@@ -10,52 +10,59 @@
   {\small Lucien R. Zagabe}\\[1cm]
 \end{center}
 
-\section*{Bayes' Theorem}
+\section*{Probability}
 
-\noindent \textbf{Theorem} (The Law of Total Probability). \emph{Let
+\noindent \textbf{Definition. Rules of probability for discrete
+variables} The probability $p(x = x)$ of variable $x$ being in state x
+is represented by a value between 0 and 1. $p(x = x) = 1$ means that
+we are certain $x$ is in state $x$. Conversely, $p(x = x) = 0$ means
+that we are certain $x$ is not in state $x$. Values between 0 and 1
+represent the degree of certainty of state occupancy.\\
+The summation of the probability over all the states is 1:
+$$\sum_{x \in dom(x)}p(x = x) = 1$$
+This is called that normalisation condition.\\
+
+\noindent \textbf{Definition. Marginals} Given a joint distribution
+$p(x, y)$ the distribution of a single variable is given by
+$$p(x) = \sum_{y}p(x, y)$$
+Here $p(x)$ is termed as marginal of the joint probability distribution
+$p(x, y)$\\
+
+\noindent \textbf{Definition. Conditional probability} If $P(B) > 0$
+then the \textbf{conditional probability} of $A$ given $B$ is
+$$\mathbb{P}(A|B) = \dfrac{\mathbb{P}(AB)}{\mathbb{P}(B)}$$
+
+\noindent \textbf{Theorem. The Law of Total Probability} \emph{Let
   $A_1,...,A_k$ be a partition of $\Omega$. Then, for any event B, }
-\begin{center}
-  $\mathbb{P}(B) = \sum_{i = 1}^{k} \mathbb{P}(B | A_i)\mathbb{P}(A_i)$
-\end{center}
+$$\mathbb{P}(B) = \sum_{i = 1}^{k} \mathbb{P}(B | A_i)\mathbb{P}(A_i)$$
 
-\noindent \textbf{Theorem} (Bayes' Theorem). \emph{Let $A_1,...,A_k$
+\noindent \textbf{Theorem. Bayes' Theorem} \emph{Let $A_1,...,A_k$
   be a partition of $\Omega$ such that $\mathbb{P}(A_i) > 0$
   for each $i$. If $\mathbb{P}(B) > 0$ then, for each $i = 1,...,k$,}
-\begin{center}
-  $\mathbb{P}(A_i|B) =
-  \dfrac{\mathbb{P}(B|A_i)\mathbb{P}(A_i)}{\sum_{j}\mathbb{P}(B|A_j)\mathbb{P}(A_j)}$ 
-\end{center}
+$$\mathbb{P}(A_i|B) =
+  \dfrac{\mathbb{P}(B|A_i)\mathbb{P}(A_i)}{\sum_{j}\mathbb{P}(B|A_j)\mathbb{P}(A_j)}$$
 
 \noindent \textbf{Important.} We call $\mathbb{P}(A_i)$ the \textbf{prior
   probability of $A$} and $\mathbb{P}(A_i|B)$ the \textbf{posterior
-  probability of A}
+  probability of A}\\
 
-\section*{Bayesian statistics}
+\noindent \textbf{Definition. Independence} Two events $A$ and $B$ are
+\textbf{independent} if
+$$\mathbb{P}(AB) = \mathbb{P}(A)\mathbb{P}(B)$$
+and we write $A \amalg B$. $A$ set of events $\{A_i: i \in I\}$ is
+independent if
+$$P(\bigcup_{i \in J}A_i) = \prod_{i \in J}\mathbb{P}(A_i)$$
 
-Bayesian inference differs from more traditional statistical inference
-by preserving uncertainty. The Bayesian world-view interprets
-probability as measure of believability in an event, that is, how
-confident we are in an event occurring.
-
-Bayesians interpret a probability as measure of belief, or confidence,
-of an event occurring. A probability is a summary of an opinion. An
-individual who assigns a belief of 0 to an event has no confidence
-that the event will occur; conversely, assigning a belief of 1 implies
-that the individual is absolutely certain of an event occurring.
-
-This philosophy of treating beliefs as probability is natural to
-humans. We employ it constantly as we interact with the world and only
-see partial truths, but gather evidence to form beliefs.
-
-Consider an uncertain event, for example whether the Artctic ice cap
-will have disappeared by the end of the century. These are not events
-that can be repeated numerous times in order to define a notion of
-probability (i.e. Frequentist statistics). Nevertheless, we will
-generally have some idea, for example, of how quickly we think the
-polar ice is melting. If we now obtain fresh evidence, for instance
-from a new earth observation, we may revise our opinion on the rate of
-ice loss. This can all be achieve through Bayesian interpretation of
-probability.
+\noindent \textbf{Definition. Conditional Independence}
+$$X \amalg Y | Z$$
+denotes that the two sets of variable $X$ and $Y$ are independent of
+each other provided we know the state of the set of variables $Z$. For
+conditional independence, $X$ and $Y$ must be independent given all
+states of $Z$. Formally, this means that
+$$P(X,Y|Z) = p(X|Z)p(Y|Z)$$
+for all states of $X,Y,Z$. In case the conditioning set is empty we
+may also write $X \amalg Y$ for $X \amalg Y | \empty$, in which case
+$X$ is (unconditionally) independent of $Y$.\\
 
 %% \section*{Frequentist statistics}
 
@@ -65,41 +72,34 @@ probability.
 %% philosophy is interpreted as the long-term frequency of plane
 %% accidents. 
 
-\section*{Distribution Functions and Probability Functions}
-
-\noindent \textbf{Definition.} \emph{The \textbf{cumulative
+\noindent \textbf{Definition. CDF} \emph{The \textbf{cumulative
     distribution function}, or CDF, is the function $F_X : \mathbb{R}
   \to [0,1]$ defined by}
-\begin{center}
-  $F_X(x) = \mathbb{P}(X \leq x)$.
-\end{center}
+$$F_X(x) = \mathbb{P}(X \leq x)$$
 
-\noindent \textbf{Definition.} \emph{$X$ is discrete if it takes
-  countably many values $\{x_1,x_2,...\}$. We define the \textbf{probability
-  function} or \textbf{probability mass function} for $X$ by $f_x(x) =
-  \mathbb{P}(X = x)$} $\blacksquare$\\
+\noindent \textbf{Definition. Probability function} \emph{$X$ is
+  discrete if it takes countably many values $\{x_1,x_2,...\}$. We
+  define the \textbf{probability function} or \textbf{probability mass
+    function} for $X$ by $f_x(x) = \mathbb{P}(X = x)$}\\
 
-\noindent \textbf{Definition.} \emph{A random variable X is continuous
-if there exists a function $f_X$ such that $f_X(x) \geq 0$ for all
-$x$, $\int_{-\infty}^{\infty}f_X(x)dx = 1$ and for every $a \leq b$,}
-\begin{eqnarray*}
-  \mathbb{P}(a < X < b) = \int_{a}^{b}f_X(x)dx.
-\end{eqnarray*}
-\emph{The function $f_X$ is called the \textbf{probability density
-    function} (PDF). We have that,}
-\begin{eqnarray*}
-  F_X(x) = \int_{-\infty}^{x}f_X(t)dt
-\end{eqnarray*}
+\noindent \textbf{Definition. Probability density function} \emph{A
+  random variable X is continuous if there exists a function $f_X$
+  such that $f_X(x) \geq 0$ for all $x$,
+  $\int_{-\infty}^{\infty}f_X(x)dx = 1$ and for every $a \leq b$,} 
+$$\mathbb{P}(a < X < b) = \int_{a}^{b}f_X(x)dx$$
+
+\noindent \emph{The function $f_X$ is called the \textbf{probability
+    density function} (PDF). We have that,}
+$$F_X(x) = \int_{-\infty}^{x}f_X(t)dt$$
 \emph{and $f_X(x) = F_X^{'}(x)$ and all points $x$ at which $F_X$ is
-  differentiable} $\blacksquare$\\
+  differentiable}\\
 
-\noindent \textbf{Definition.} \emph{Let $X$ be a random variable with
-CDF $F$. The \textbf{inverse CDF} or \textbf{quantile function} is
-defined by$^{4}$}
-\begin{eqnarray*}
-  F^{-1}(q) = \inf\{x : F(x) > q\}
-\end{eqnarray*}
+\noindent \textbf{Definition. Quantile function} \emph{Let $X$ be a
+  random variable with CDF $F$. The \textbf{inverse CDF} or
+  \textbf{quantile function} is defined by$^{4}$}
+$$F^{-1}(q) = \inf\{x : F(x) > q\}$$
 \emph{for $q \in [0,1]$. If $F$ is strictly increasing and continuous
-  than $F^{-1}(q)$ is the unique real number $x$ such that $F(x) = q$}
-$\blacksquare$\\
+  than $F^{-1}(q)$ is the unique real number $x$ such that $F(x) =
+  q$}
+
 \end{document}
