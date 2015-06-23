@@ -1,17 +1,25 @@
-## Machine Learning / Mathematics Resources
+## Data Science Resources
 
-Various resources for machine learning..
+Various resources related to data science...
 
 ### MOOCs/Lectures
 
 - [Andrew's Machine Learning at Coursera](https://www.coursera.org/learn/machine-learning/home/info)
+  very good introductory video about Machine Learning by Ng an icon
+  of the community.
 - [Yaser Abu-Mostafa's Machine Learning Course](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
 - [Hugo Larochelle's Neural Networks Class](https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
-- [Data Analysis and Statistical Inference at Coursera](https://www.coursera.org/course/statistics)
+
+Algebra is a predominant subject in machine learning, here's some of
+my preferred resources:
 - [Khan academy's Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - [Linear Algebra: An In-Depth Introduction with a Focus on Applications](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv) (Part 1)
 - [Linear Algebra: An In-Depth Introduction with a Focus on Applications](https://www.youtube.com/playlist?list=PLlXfTHzgMRUIqYrutsFXCOmiqKUgOgGJ5) (Part 2)
 - [Strang's Linear Algebra](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)
+
+Other very useful subjects:
+- [Data Analysis and Statistical Inference at Coursera](https://www.coursera.org/course/statistics)
+- [Stephen Boyd's Lectures on Convex Optimization](https://www.youtube.com/watch?v=McLq1hEq3UY&list=PL3940DD956CDF0622)
 
 ### Books
 
@@ -31,13 +39,17 @@ Various resources for machine learning..
 - [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/reports.html) (Reports)
 - [Rotation-invariant convolutional neural networks for galaxy morphology prediction](http://arxiv.org/pdf/1503.07077v1.pdf)
 
+TODO(zagabe.lu@gmail.com): Plenty is yet to come...
+
 ### Podcasts
 
 - [The Data Skeptic Podcast](http://dataskeptic.com/episodes.php)
+- [O’Reilly Data Show Podcast](http://radar.oreilly.com/tag/oreilly-data-show-podcast)
 
-### Communities
+### Communities/Blogs
 
 - [Datatau](http://www.datatau.com/news)
+- [High Scalability](http://highscalability.com/)
 
 ### Datasets/Competitions
 
