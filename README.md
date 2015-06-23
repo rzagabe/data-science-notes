@@ -10,8 +10,9 @@ Various resources related to data science...
 - [Yaser Abu-Mostafa's Machine Learning Course](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
 - [Hugo Larochelle's Neural Networks Class](https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
 
-Algebra is a predominant subject in machine learning, here's some of
-my preferred resources:
+Algebra is a predominant subject in machine learning. Things such as
+eigenvectors and SVD decompositions are valuable topics to sharpen
+your intuition. Here's some of my preferred resources: 
 - [Khan academy's Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - [Linear Algebra: An In-Depth Introduction with a Focus on Applications](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv) (Part 1)
 - [Linear Algebra: An In-Depth Introduction with a Focus on Applications](https://www.youtube.com/playlist?list=PLlXfTHzgMRUIqYrutsFXCOmiqKUgOgGJ5) (Part 2)
