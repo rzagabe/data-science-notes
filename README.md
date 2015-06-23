@@ -5,7 +5,7 @@ Various resources related to data science...
 ### MOOCs/Lectures
 
 - [Andrew's Machine Learning at Coursera](https://www.coursera.org/learn/machine-learning/home/info)
-  very good introductory video about Machine Learning by Ng an icon
+  very good introductory videos about Machine Learning by Ng an icon
   of the community.
 - [Yaser Abu-Mostafa's Machine Learning Course](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
 - [Hugo Larochelle's Neural Networks Class](https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
