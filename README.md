@@ -31,6 +31,7 @@ Other useful subjects:
 - [Draft: Deep Learning](http://www-labs.iro.umontreal.ca/~bengioy/dlbook/) - Yoshua Bongo (Free)
 - [Probabilistic Programming and Bayesian Methods for Hackers](http://nbviewer.ipython.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Prologue/Prologue.ipynb)
 - [Numerical Linear Algebra](http://www.amazon.com/dp/0898713617?tag=inspiredalgor-20) - Lloyd N. Trefethen
+- [All of Statistics: A Concise Course in Statistical Inference](http://www.amazon.com/All-Statistics-Statistical-Inference-Springer/dp/0387402721) - Larry Wasserman
 
 ### Papers/Notes/Reports
 
