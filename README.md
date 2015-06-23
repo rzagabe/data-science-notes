@@ -44,7 +44,9 @@ TODO(zagabe.lu@gmail.com): Plenty is yet to come...
 
 ### Podcasts
 
-- [The Data Skeptic Podcast](http://dataskeptic.com/episodes.php)
+- [The Data Skeptic Podcast](http://dataskeptic.com/episodes.php) This
+  podcast gives you very good insights from various interviews on what
+  it's like to be a good data scientist.
 - [O’Reilly Data Show Podcast](http://radar.oreilly.com/tag/oreilly-data-show-podcast)
 
 ### Communities/Blogs
