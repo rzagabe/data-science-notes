@@ -18,7 +18,7 @@ your intuition. Here's some of my preferred resources:
 - [Linear Algebra: An In-Depth Introduction with a Focus on Applications](https://www.youtube.com/playlist?list=PLlXfTHzgMRUIqYrutsFXCOmiqKUgOgGJ5) (Part 2)
 - [Strang's Linear Algebra](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)
 
-Other very useful subjects:
+Other useful subjects:
 - [Data Analysis and Statistical Inference at Coursera](https://www.coursera.org/course/statistics)
 - [Stephen Boyd's Lectures on Convex Optimization](https://www.youtube.com/watch?v=McLq1hEq3UY&list=PL3940DD956CDF0622)
 
