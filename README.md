@@ -45,6 +45,8 @@ TODO(zagabe.lu@gmail.com): Plenty is yet to come...
 
 ### Podcasts
 
+- [The Talking Machines](http://www.thetalkingmachines.com/blog/) Good
+  insights about what's going on in the field today.
 - [The Data Skeptic Podcast](http://dataskeptic.com/episodes.php) This
   podcast gives you very good insights from various interviews on what
   it's like to be a good data scientist.
